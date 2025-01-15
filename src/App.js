@@ -8,11 +8,18 @@ function App() {
   let router = useRoutes(routes);
 
   return (
-    <div style={{ width: "100%", display: "flex", flexDirection: "column" }}>
+    <div
+      style={{
+        width: "100%",
+        height: "200vh",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <TopBar />
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div style={{ display: "flex", flexDirection: "row", marginTop: 60 }}>
         <SideBar />
-        <div style={{ width: "100%" }}>{router}</div>
+        <div style={{ width: "86%" }}>{router}</div>
       </div>
     </div>
   );

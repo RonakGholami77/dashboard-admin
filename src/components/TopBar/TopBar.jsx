@@ -12,7 +12,7 @@ function TopBar() {
 
   return (
     <div className="topbar">
-      <div className="left-container">Kiawaan💖</div>
+      <div className="left-container">Jeyhoon</div>
       <div className="right-container">
         <div className="icon">
           <NotificationsNoneIcon />

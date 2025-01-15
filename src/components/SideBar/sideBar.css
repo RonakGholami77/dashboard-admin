@@ -1,0 +1,39 @@
+.side-bar {
+  width: 20%;
+  height: 100vh;
+  background-color: azure;
+}
+.container {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.side-section {
+  margin-bottom: 32px;
+}
+.title {
+  color: #a59f9f;
+}
+.menu {
+  list-style: none;
+  margin: 4px 12px;
+  color: #555151;
+  font-weight: 400;
+}
+.menu li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* margin-bottom: 8px; */
+  padding: 8px;
+  cursor: pointer;
+}
+.icon {
+  margin-right: 8px;
+}
+
+li:hover {
+  background-color: rgb(212 231 233);
+  border-radius: 20px;
+}

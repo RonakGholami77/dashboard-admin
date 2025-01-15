@@ -1,10 +1,13 @@
 .topbar {
   width: 100%;
-  background-color: aquamarine;
+  height: 60px;
+  background-color: #413b72;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 8px;
+  position: fixed;
+  color: #cbd1d6;
 }
 /* .left-container,
 .right-container {
