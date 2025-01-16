@@ -6,8 +6,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px;
-  position: fixed;
+  position: sticky;
+  top: 0;
   color: #cbd1d6;
+  z-index: 999;
 }
 /* .left-container,
 .right-container {

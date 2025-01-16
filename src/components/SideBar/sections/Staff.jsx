@@ -8,19 +8,19 @@ function Staff() {
     <div className="side-section">
       <h4 className="title">Staff</h4>
       <ul className="menu">
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <WorkOutlineIcon className="icon" />
             Manage
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <TimelineIcon className="icon" />
             Analytics
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <ReportIcon className="icon" />
             Reports

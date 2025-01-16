@@ -8,19 +8,19 @@ function Notifications() {
     <div className="side-section">
       <h4 className="title">Notifications</h4>
       <ul className="menu">
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <MailOutlineIcon className="icon" />
             Mail
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <DynamicFeedIcon className="icon" />
             Feedback
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <ChatBubbleOutlineIcon className="icon" />
             Messages

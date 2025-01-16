@@ -1,7 +1,10 @@
 .side-bar {
-  width: 20%;
-  height: 100vh;
+  flex: 1;
+  /* width: 20%; */
+  height: calc(100vh - 60px);
   background-color: azure;
+  position: sticky;
+  top: 60px;
 }
 .container {
   padding: 30px 20px;
@@ -20,7 +23,12 @@
   color: #555151;
   font-weight: 400;
 }
-.menu li {
+.link {
+  text-decoration: none;
+  color: #555151;
+  cursor: pointer;
+}
+.link li {
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -33,7 +41,8 @@
   margin-right: 8px;
 }
 
-li:hover {
+li:hover,
+li.active {
   background-color: rgb(212 231 233);
   border-radius: 20px;
 }

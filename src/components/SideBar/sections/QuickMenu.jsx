@@ -10,31 +10,31 @@ function QuickMenu() {
     <div className="side-section">
       <h4 className="title">Quick Menu</h4>
       <ul className="menu">
-        <Link to="/users">
+        <Link to="/users" className="link">
           <li>
             <GroupIcon className="icon" />
             Users
           </li>
         </Link>
-        <Link to="/newUser">
+        <Link to="/newUser" className="link">
           <li>
             <PersonAddIcon className="icon" />
             New Users
           </li>
         </Link>
-        <Link to="/products">
+        <Link to="/products" className="link">
           <li>
             <StorefrontIcon className="icon" />
             Products
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <AttachMoneyIcon className="icon" />
             Transaction
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <EqualizerIcon className="icon" />
             Reports

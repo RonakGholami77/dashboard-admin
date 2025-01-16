@@ -8,19 +8,19 @@ function Dashboard() {
     <div className="side-section">
       <h4 className="title">Dashboard</h4>
       <ul className="menu">
-        <Link to="/">
-          <li>
+        <Link to="/" className="link">
+          <li className="active">
             <LineStyleIcon className="icon" />
             Home
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <TimelineIcon className="icon" />
             Analytics
           </li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           <li>
             <TrendingUpIcon className="icon" />
             Sales
