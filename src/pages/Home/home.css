@@ -1,0 +1,59 @@
+.home {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.layoutCard {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featureTitle {
+  font-size: 28px;
+}
+
+.featureprice {
+  display: flex;
+  align-items: center;
+}
+
+.featureMoney {
+  margin: 12px 0;
+  margin-right: 16px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.featureRate {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.arrowDown,
+.arrowUp {
+  font-size: 16px;
+  margin-left: 4px;
+}
+.arrowDown {
+  color: red;
+}
+
+.arrowUp {
+  color: green;
+}
+
+.featureDetail {
+  color: gray;
+}

@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <TopBar />
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", marginTop: "10px" }}>
         <SideBar />
         {router}
       </div>

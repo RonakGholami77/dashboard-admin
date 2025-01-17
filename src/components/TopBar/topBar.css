@@ -1,24 +1,23 @@
 .topbar {
   width: 100%;
   height: 60px;
-  background-color: #413b72;
+  /* background-color: #413b72; */
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 8px;
   position: sticky;
   top: 0;
-  color: #cbd1d6;
+  /* color: #cbd1d6; */
   z-index: 999;
 }
-/* .left-container,
-.right-container {
-  padding: 4px 8px;
-} */
+
 .left-container {
   font-size: 24px;
   padding-left: 8px;
 }
+
 .right-container {
   display: flex;
   flex-direction: row;
@@ -26,19 +25,23 @@
   align-items: center;
   min-width: 170px;
 }
+
 .profile-img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: bisque;
 }
+
 .profile-img img {
   width: 100%;
   border-radius: 20px;
 }
+
 .icon {
   position: relative;
 }
+
 .notif-badge {
   background-color: red;
   width: 14px;
