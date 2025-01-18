@@ -1,7 +1,9 @@
 import "./home.css";
 import Features from "./Features/Features";
 import Chart from "./Charts/Chart";
-import data from "./Charts/data";
+import { data } from "./Charts/data";
+import NewUser from "./NewUsers/NewUser";
+import Transaction from "./Transaction/Transaction";
 
 function Home() {
   return (
@@ -14,7 +16,10 @@ function Home() {
         lineKey="sales"
         xKey="month"
       />
-      <div style={{ display: "flex" }}></div>
+      <div style={{ display: "flex" }}>
+        <NewUser />
+        <Transaction />
+      </div>
     </div>
   );
 }

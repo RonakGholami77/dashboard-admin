@@ -12,7 +12,7 @@ function Chart(props) {
   return (
     <div className="layout">
       <div className="layoutCard">
-        <h3 className="chartTitle">{title}</h3>
+        <h3 className="homeTitle">{title}</h3>
         <ResponsiveContainer width="100%" aspect={4}>
           <LineChart data={data}>
             <Line type="monotone" dataKey={lineKey} stroke="#8884d8" />

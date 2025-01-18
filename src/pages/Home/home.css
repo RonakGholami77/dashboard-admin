@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 40px;
 }
 
 .layout {
@@ -19,9 +20,40 @@
   box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
 
-.featureTitle {
-  font-size: 28px;
+.layoutCardFirst {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
+
+.layoutCardSecond {
+  flex: 2;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.homeTitle {
+  font-size: 24px;
+}
+
+.fcContainer {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 12px;
+}
+
+.frContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+/* features*/
 
 .featureprice {
   display: flex;
@@ -56,4 +88,89 @@
 
 .featureDetail {
   color: gray;
+}
+
+/* new user */
+.userList {
+  list-style: none;
+  margin-top: 16px;
+}
+
+.userListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0px;
+  padding: 0px 8px;
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.userName,
+.userSkill {
+  font-size: 16px;
+  color: gray;
+}
+
+.userVisibility {
+  font-size: 14px;
+  cursor: pointer;
+  color: gray;
+  width: 30px;
+}
+
+/* Transaction */
+
+.transactionTable {
+  width: 100%;
+  border-spacing: 16px;
+}
+
+.headItem {
+  text-align: left;
+}
+
+.tr {
+  cursor: pointer;
+}
+
+.imgCustomer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.customer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.customerName {
+  margin-left: 12px;
+}
+
+.btn {
+  width: 70px;
+  border: none;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
+
+.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
 }

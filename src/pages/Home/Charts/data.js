@@ -13,4 +13,4 @@ const data = [
   { month: "Dec", sales: 6_000 },
 ];
 
-export default data;
+export { data };

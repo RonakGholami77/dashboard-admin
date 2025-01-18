@@ -6,7 +6,7 @@ function Feature(props) {
 
   return (
     <div className="layoutCard">
-      <span className="featureTitle">{title}</span>
+      <span className="homeTitle">{title}</span>
       <div className="featureprice">
         <span className="featureMoney">${money}</span>
         <span className="featureRate">
