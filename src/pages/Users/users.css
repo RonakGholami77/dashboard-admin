@@ -1,0 +1,40 @@
+.users {
+  flex: 4;
+  height: calc(100vh - 80px);
+  width: "100%";
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  /* gap: 16px; */
+}
+
+.userImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.editBtn {
+  width: 40px;
+  padding: 2px 0;
+  background-color: rgb(77, 220, 74);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  color: lightcoral;
+  cursor: pointer;
+}

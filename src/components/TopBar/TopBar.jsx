@@ -28,7 +28,7 @@ function TopBar() {
         </div>
         <div className="profile-img">
           <img
-            src={image ? { image } : "./assets/images/jihon.jpeg"}
+            src={image ? { image } : "./assets/images/user.png"}
             alt="profile"
           />
         </div>
