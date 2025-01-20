@@ -1,4 +1,4 @@
-import { transactionData } from "./transactionData";
+import { transactionData } from "../../../shared/salesData";
 
 function Transaction() {
   const Button = ({ type }) => {

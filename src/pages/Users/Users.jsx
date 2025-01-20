@@ -1,13 +1,13 @@
 import { DataGrid } from "@mui/x-data-grid";
 import Box from "@mui/material/Box";
-import { DataUsers } from "./usersData";
+import { usersData } from "../../shared/userData";
 import { Link } from "react-router-dom";
 import DeleteIcon from "@mui/icons-material/Delete";
 import "./users.css";
 import { useState } from "react";
 
 function Users() {
-  const [usersData, setUsersData] = useState(DataUsers);
+  const [users, setUsers] = useState(usersData);
 
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
@@ -50,13 +50,13 @@ function Users() {
   ];
 
   function deleteUserHandler(userId) {
-    return setUsersData(usersData.filter((user) => user.id !== userId));
+    return setUsers(usersData.filter((user) => user.id !== userId));
   }
 
   return (
     <Box className="users">
       <DataGrid
-        rows={usersData}
+        rows={users}
         columns={columns}
         initialState={{
           pagination: {

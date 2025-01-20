@@ -1,12 +1,12 @@
 import VisibilityIcon from "@mui/icons-material/Visibility";
-import { userData } from "./userData";
+import { usersData } from "../../../shared/userData";
 
 function NewUser() {
   return (
     <div className="layoutCardFirst">
       <h3 className="homeTitle">New joined users</h3>
       <ul className="userList">
-        {userData.map((user, index) => (
+        {usersData.map((user, index) => (
           <li key={index} className="userListItem">
             <img
               src="./assets/images/user.png"

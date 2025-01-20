@@ -1,7 +1,7 @@
 import "./home.css";
 import Features from "./Features/Features";
 import Chart from "./Charts/Chart";
-import { data } from "./Charts/data";
+import { data } from "../../shared/salesData";
 import NewUser from "./NewUsers/NewUser";
 import Transaction from "./Transaction/Transaction";
 
