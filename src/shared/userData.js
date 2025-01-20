@@ -1,9 +1,10 @@
-const DataUsers = [
+const usersData = [
   {
     id: 1,
     username: "Ali Mahmodi",
     image: "assets/images/user.png",
     email: "Ali@google.com",
+    skill: "Front-End",
     status: "active",
     transaction: 24.45,
   },
@@ -12,6 +13,7 @@ const DataUsers = [
     username: "Ali Mahmodi",
     image: "assets/images/user.png",
     email: "Ali@google.com",
+    skill: "Front-End",
     status: "active",
     transaction: 24.45,
   },
@@ -20,6 +22,7 @@ const DataUsers = [
     username: "Ali Mahmodi",
     image: "assets/images/user.png",
     email: "Ali@google.com",
+    skill: "Front-End",
     status: "active",
     transaction: 17.15,
   },
@@ -28,6 +31,7 @@ const DataUsers = [
     username: "Ronak Gholami",
     image: "assets/images/user.png",
     email: "Ronak@google.com",
+    skill: "Web Developer",
     status: "active",
     transaction: 24.45,
   },
@@ -36,6 +40,7 @@ const DataUsers = [
     username: "Ali Karimi",
     image: "assets/images/user.png",
     email: "Ali@google.com",
+    skill: "Web Developer",
     status: "non-active",
     transaction: 24.45,
   },
@@ -44,9 +49,10 @@ const DataUsers = [
     username: "Sara Asadi",
     image: "assets/images/user.png",
     email: "Sara@google.com",
+    skill: "Web Developer",
     status: "active",
     transaction: 78.09,
   },
 ];
 
-export { DataUsers };
+export { usersData };
