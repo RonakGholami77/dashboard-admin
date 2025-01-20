@@ -49,8 +49,8 @@ function Users() {
     },
   ];
 
-  function deleteUserHandler(userId) {
-    return setUsers(usersData.filter((user) => user.id !== userId));
+  function deleteUserHandler(userID) {
+    return setUsers(usersData.filter((user) => user.id !== userID));
   }
 
   return (

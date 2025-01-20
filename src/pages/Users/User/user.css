@@ -1,0 +1,147 @@
+.profileUser {
+  flex: 4;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.flexOne {
+  flex: 1;
+}
+
+.flexTwo {
+  flex: 2;
+}
+
+.flexFour {
+  flex: 5;
+}
+
+.height {
+  height: 550px;
+}
+
+.layout {
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.profileContainerTop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.profileContainerLeft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileContainerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 32px;
+}
+
+.profileName {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.profileSkill {
+  font-size: 20px;
+}
+
+.profileList {
+  width: 500px;
+  list-style: none;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profileListItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.profileContainerBottom {
+  width: 100%;
+}
+/* table */
+
+.tableTransaction {
+  display: flex;
+  flex-direction: column;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  /* min-width: 400px;
+  max-width: 800px; */
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody {
+  /* border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #009879; */
+}
+
+.styled-table tbody tr {
+  /* border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #009879; */
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* .styled-table tbody tr:first-of-type {
+  border-top: 1px solid #009879;
+} */
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.radious {
+  height: 163px;
+  overflow: hidden;
+  /* border-radius: 8px;
+  border-left: 5px solid #009879;
+  border-right: 5px solid #009879; */
+}

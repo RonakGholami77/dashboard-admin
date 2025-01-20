@@ -26,7 +26,7 @@ function Features() {
   ];
 
   return (
-    <div className="layout">
+    <div className="homeLayout">
       {featuresData.map((feature) => {
         return <Feature {...feature} />;
       })}

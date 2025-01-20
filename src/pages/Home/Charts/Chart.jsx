@@ -10,7 +10,7 @@ import {
 function Chart(props) {
   const { title, data, grid, lineKey, xKey } = props;
   return (
-    <div className="layout">
+    <div className="homeLayout">
       <div className="layoutCard">
         <h3 className="homeTitle">{title}</h3>
         <ResponsiveContainer width="100%" aspect={4}>

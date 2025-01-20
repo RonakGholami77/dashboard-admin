@@ -25,10 +25,10 @@ function Transaction() {
               />
               <span className="customerName">{trans.name}</span>
             </td>
-            <td className="date">{trans.date}</td>
-            <td className="amount">$ {trans.amount}</td>
+            <td className="date">{trans.transaction[0].date}</td>
+            <td className="amount">$ {trans.transaction[0].amount}</td>
             <td className="status">
-              <Button type={trans.status} />
+              <Button type={trans.transaction[0].status} />
             </td>
           </tr>
         ))}
