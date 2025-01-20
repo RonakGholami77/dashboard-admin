@@ -1,7 +1,7 @@
 .side-bar {
   flex: 1;
   /* width: 20%; */
-  height: calc(100vh - 60px);
+  /* height: calc(100vh - 60px); */
   background-color: azure;
   position: sticky;
   top: 60px;
